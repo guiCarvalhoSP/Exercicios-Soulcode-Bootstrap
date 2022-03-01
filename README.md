@@ -31,3 +31,7 @@ Desenvolver uma página web de algum estabelecimento ficticio, para aprimorar e 
 
 ### Bootstrap alem-do-basico:
 Exercicio realizado em grupo, objetivo de criar uma página de cadastro da vacinação utilizando bootstrap e jquery. (Projeto incompleto, pois não consegui recuperar os arquivos faltantes do projeto que foi entregue).
+
+
+##### Aviso:
+Estes projetos foram feitos em um momento onde os alunos do curso ainda estavam aprendendo a usar o framework bootstrap, por isso a baixa qualidade visual das páginas.
