@@ -1,0 +1,53 @@
+#cabecalho {
+    grid-area: header;
+    border: 1px solid greenyellow;
+    font-size: larger;
+}
+
+#conteudo {
+    grid-area: conteudo;
+    border: 1px solid crimson;
+}
+#asides {
+    grid-area: aside;
+    border: 1px solid lightcoral;
+}
+#rodape {
+    grid-area: rodape;
+    border: 1px solid royalblue;
+    font-size: larger;
+
+}
+
+
+@media (min-width: 500px) {
+    #tela {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header header"
+        "aside aside aside aside"
+        "aside aside aside aside"
+        "conteudo conteudo conteudo conteudo "
+        "conteudo conteudo conteudo conteudo "
+        "conteudo conteudo conteudo conteudo "
+        "conteudo conteudo conteudo conteudo "
+        "rodape rodape rodape rodape ";
+    }
+}
+
+@media (min-width: 700px) {
+    #tela {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "header header header header header"
+        "conteudo conteudo conteudo conteudo aside"
+        "conteudo conteudo conteudo conteudo aside"
+        "conteudo conteudo conteudo conteudo aside"
+        "conteudo conteudo conteudo conteudo aside"
+        "rodape rodape rodape rodape rodape";
+    }
+}
